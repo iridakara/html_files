@@ -1,24 +1,57 @@
 <!DOCTYPE html>
+<!--<nav></nav> means navigator. It's an invisible box that containes many urls if u have many together.-->
 <html>
   <head>
-    <title>You're greek language teacher</title>
+    <title>Your greek language teacher</title>
   </head>
 
   <body>
-    <h1>You're greek language teacher</h1>
+    <header>
+    <h1>
+      Your greek language teacher
+      <img
+        src="istockphoto-490252472-612x612.jpg"
+        alt="a picture of an apple on a pile of books"
+        width="70"
+        height="70"
+      />
+    </h1>
+
     <h2>
-      <i
-        >Are you looking for someone to teach you greek? Book your first free
-        lesson now!</i
-      >
+      <em>
+        Are you looking for someone to teach you greek? Book your first free <!--similar to <i> but <em> is semantic-->
+        lesson now!
+      </em>
+      <button>Book Lesson</button>
     </h2>
+    
+    </header> <!--like nav element-->
+
+    <article> <!--like nav and header-->
     <h3>Introducing myself..</h3>
     <p>
       Hi everyone! My name is Irida. I have been teaching greek to chinese
       students, who live or not in Greece and attend or not greek schools, for
       many years now.
     </p>
-    <h3>How did this journey begin..</h3>
+    <p>
+      Check more in
+      <a
+        href="https://www.linkedin.com/in/iris-karapetsa-8331a3189/"
+        target="_blank"
+        >My Linkedin Profile</a
+      >.
+    </p>
+
+    <h3>
+      How did this journey begin..
+      <img
+        src="istockphoto-985032688-612x612.jpg"
+        alt="a teacher flying with her books"
+        height="150"
+        width="200"
+      />
+    </h3>
     <p>
       Everything started many years ago, when I met my first chinese student. Of
       course at first she was just a little girl I met somewhere, who caught my
@@ -42,10 +75,63 @@
     <h3>How do I start the courses?</h3>
     <p>
       First of all, there are many levels in greek language.
-      <b>If you already have been taught greek</b> with or without teacher in
+      <strong>If you already have been taught greek</strong> with or without teacher in <!--similar to <b> but <strong> is semantic-->
       the past, we will check your level of knowledge and we will place on the
-      right following level. <b>If not</b>, depending on your age, we will start
+      right following level. <strong>If not</strong>, depending on your age, we will start
       from the beginning using the suitable material.
     </p>
+    <h3>What parts of learning does the material contain and exercise?</h3>
+
+    <ol>
+      <li>Reading</li>
+      <li>Comprehension of reading and answering questions</li>
+      <li>Vocabulary</li>
+      <li>Grammar</li>
+      <li>Listening</li>
+      <li>Speaking</li>
+    </ol>
+    <h3>How many levels of greek language are there?</h3>
+    <ul>
+      <li>A1</li>
+      <li>A2</li>
+      <li>B1</li>
+      <li>B2</li>
+      <li>Γ1 (C1)</li>
+      <li>Γ2 (C2)</li>
+    </ul>
+    <p>
+      You can also check
+      <a href="BasicGreekPhrases.html" target="_blank">Basic Greek Phrases</a>
+    </p>
+  </article>
+
+  <aside>
+<h4>Other Interesting Posts</h4>
+<p>
+  <ul>
+    <li>
+        <a href="BasicVerbs.html" target="_blank">Basic Greek Verbs</a>
+        <img
+          src="verbs-study-with-little-kids-doing-different-activity-demonstrating-vocabulary-vector-set.png"
+          alt="Some action verbs" height="100" width="100"
+        >
+    </li>
+    <li>
+      <a href="FoodVocabulary.html" target="_blank">Basic Food Vocabulary</a> 
+      <img src="cartoon-5-food-groups-nutrition-picture-for-children-this-is-a-vector-illustration-for.png"
+       alt="Food of different categories" height="100" width="100">
+    </li>
+    <li>
+      <a href="FoodVocabulary.html" target="_blank">Basic Vocaburaly For Travelling</a>
+      <img src="illustration-of-airplane-flights-on-world-map.png"
+       alt="Map and airplanes" height="100" width="150">
+    </li>
+  </ul>
+</p>
+
+  </aside>
+
+  <footer>Copyright &copy; 2023 by Irida Karapetsa </footer> <!--html entity-->
   </body>
 </html>
+<!--if img on other folder, i write scr="nameoffolder/nameofpicture"-->
